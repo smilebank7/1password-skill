@@ -6,15 +6,16 @@ Uses **desktop app integration** for seamless authentication — no manual `op s
 
 ## Install
 
+Clone directly into your Claude Code skills directory:
+
 ```bash
-claude skill install --name 1password github.com/smilebank7/1password-skill
+git clone https://github.com/smilebank7/1password-skill.git ~/.claude/skills/1password
 ```
 
-Or clone and install locally:
+To update:
 
 ```bash
-git clone https://github.com/smilebank7/1password-skill.git
-claude skill install --name 1password ./1password-skill
+git -C ~/.claude/skills/1password pull
 ```
 
 ## Prerequisites
